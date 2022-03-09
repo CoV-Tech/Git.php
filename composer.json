@@ -1,8 +1,21 @@
 {
     "name": "kbjr/git.php",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James Brumond",
+            "email": "james@jbrumond.me"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Kbjr\\Git\\": "src/"
         }
+    },
+    "require": {
+        "php": "^8.0",
+        "ext-mbstring": "*"
     }
 }
